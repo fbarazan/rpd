@@ -1,0 +1,76 @@
+{
+  "physicalTable" : {
+    "name" : "F_PERSON_ADDITIONAL",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DATE_OF_DEATH",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "TOWN_OF_BIRTH",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "W$_INSERT_DT",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "BLOOD_TYPE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "CORRESPONDENCE_LANGUAGE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "COUNTRY_OF_BIRTH",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "DATE_OF_BIRTH",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "PERSON_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERSON_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "REGION_OF_BIRTH",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "SOURCE_RECORD_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "START_DATE",
+      "dataType" : "DATETIME",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "W$_UPDATE_DT",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

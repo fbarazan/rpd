@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "DEMO_HCM_FISCAL_YEAR",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "FISCAL_YEAR",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "FISCAL_PERIOD",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "FISCAL_QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

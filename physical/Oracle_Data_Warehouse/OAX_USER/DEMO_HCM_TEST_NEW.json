@@ -1,0 +1,214 @@
+{
+  "physicalTable" : {
+    "name" : "DEMO_HCM_TEST_NEW",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "COUNTRY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "TERM_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "ASSIGNED_COURSES",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "ASSIGNED_GOALS",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_DAY",
+      "dataType" : "DATETIME",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_MONTH",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "COMPARATIO",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "DEPARTMENT",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "DEPARTMENT_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "ETHNICITY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "FIRST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "GENDER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "HIRED_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "HIRE_DATE",
+      "dataType" : "DATETIME",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "JOB_FAMILY_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB_FAMILY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "JOB_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB_LEVEL",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "LAST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "LEGAL_ENTITY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "LEGAL_ENTITY_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "MONTHS_SERVICE",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERFORMANCE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "PERIOD_END_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERIOD_START_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERSON_NUMBER",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "POTENTIAL",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER_NUM",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "RELIGION",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "SALARY",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TERM_DATE",
+      "dataType" : "DATETIME",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_HIRED_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_PERIOD_END_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_PERIOD_START_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_TERMINATION_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "YEAR_SERVICE",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_DEPARTMENT",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.DEPARTMENT_ID",
+        "rightColumn" : "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_DEPARTMENT.ID"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "physicalTable" : {
+    "name" : "EXT_COVID_ENR",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CASES",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "CITY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "COLUMN1",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "COUNTYNAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "DATE_COVID",
+      "dataType" : "DATETIME",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "DEATHS",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "LAT_GEO",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "LONG_GEO",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "STATE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "physicalTable" : {
+    "name" : "DEMO_HCM_REQUISITION_08162021",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "ID_OPEN_DATE",
+      "dataType" : "DATETIME",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "YEAR",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "DEPARTMENT_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TYPE",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "CLOSE_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DAY",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "JOB_APPLICATION",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "JOB_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB_REQUISITION",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "LEGAL_ENTITY_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "MONTH",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERSON_NUMBER",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "TIME_TO_FILL",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "physicalTable" : {
+    "name" : "FARZIN_VO",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "LASTUPDATEDBY",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "LASTUPDATEDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 4,
+      "nullable" : true
+    }, {
+      "name" : "SOURCELANG",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : true
+    }, {
+      "name" : "TERRITORYSHORTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "CREATEDBY",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "CREATIONDATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "DESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : true
+    }, {
+      "name" : "LANGUAGE",
+      "dataType" : "VARCHAR",
+      "length" : 4,
+      "nullable" : true
+    }, {
+      "name" : "TERRITORYCODE",
+      "dataType" : "VARCHAR",
+      "length" : 2,
+      "nullable" : true
+    }, {
+      "name" : "W$_INSERT_DT",
+      "dataType" : "TIMESTAMP",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "W$_UPDATE_DT",
+      "dataType" : "TIMESTAMP",
+      "length" : 80,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

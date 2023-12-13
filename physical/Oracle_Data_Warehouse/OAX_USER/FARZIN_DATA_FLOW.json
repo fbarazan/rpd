@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "FARZIN_DATA_FLOW",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "LEGAL_EMPLOYER_IDENTIFIER",
+      "dataType" : "DOUBLE",
+      "length" : 126,
+      "nullable" : true
+    }, {
+      "name" : "LEGAL_EMPLOYER_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 33,
+      "nullable" : true
+    }, {
+      "name" : "LEGISLATION_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 9,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

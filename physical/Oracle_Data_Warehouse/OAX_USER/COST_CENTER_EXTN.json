@@ -1,0 +1,46 @@
+{
+  "physicalTable" : {
+    "name" : "COST_CENTER_EXTN",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "COST_CENTER_SUFFIX",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_PREFIX",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_CATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_MANAGER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "ISOFDATE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

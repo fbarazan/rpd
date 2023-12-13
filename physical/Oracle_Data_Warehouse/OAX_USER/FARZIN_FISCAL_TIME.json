@@ -1,0 +1,46 @@
+{
+  "physicalTable" : {
+    "name" : "FARZIN_FISCAL_TIME",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CALENDARDATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "FISCALQTR",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "FISCALYEARNUMBER",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "FISCALYEARQUARTER",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "FISCALYR",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "FY_QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "GL",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

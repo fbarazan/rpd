@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "DEMO_HCM_DEPARTMENT",
+    "presentationColumns" : [ {
+      "name" : "DEPARTMENT",
+      "sourceLogicalColumn" : "logicalColumn:Core.DEMO_HCM_DEPARTMENT.DEPARTMENT"
+    }, {
+      "name" : "DEPARTMENT_GROUP",
+      "sourceLogicalColumn" : "logicalColumn:Core.DEMO_HCM_DEPARTMENT.DEPARTMENT_GROUP"
+    }, {
+      "name" : "ID",
+      "sourceLogicalColumn" : "logicalColumn:Core.DEMO_HCM_DEPARTMENT.ID"
+    } ]
+  }
+}

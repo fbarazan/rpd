@@ -1,0 +1,151 @@
+{
+  "physicalTable" : {
+    "name" : "SAMPLE_TABLE_DEMO",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PERSON_GENDER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "POTENTIAL",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_PERIOD_END_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB_FAMILY",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "TERMINATION_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_HIRED_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "COMPA_RATIO",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "COUNTRY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "DEPARTMENT_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "ENTERPRISE_HIRE_DATE",
+      "dataType" : "DATETIME",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "FIRST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "HIRED_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "LAST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "LEGAL_EMPLOYER_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "MONTH",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "PERFORMANCE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "PERIOD_END_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERIOD_START_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "PERSON_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "SALARY",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TENURE_HIRE_DATE",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TENURE_RANGE",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "TERMINATION_DATE",
+      "dataType" : "DATETIME",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_PERIOD_START_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TOP_PERFORMER_TERMINATION_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "logicalTable" : {
+    "name" : "DEMO_HCM_TEST_NEW",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "ASSIGNED_COURSES",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.ASSIGNED_COURSES" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ASSIGNED_GOALS",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.ASSIGNED_GOALS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_DAY",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.CALENDAR_DAY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_MONTH",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.CALENDAR_MONTH" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.CALENDAR_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "COMPARATIO",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.COMPARATIO" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "COUNTRY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.COUNTRY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DEPARTMENT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.DEPARTMENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DEPARTMENT_ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.DEPARTMENT_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ETHNICITY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.ETHNICITY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FIRST_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.FIRST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GENDER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.GENDER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "HIRE_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.HIRE_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "HIRED_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.HIRED_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "JOB",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.JOB" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "JOB_FAMILY_ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.JOB_FAMILY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "JOB_FAMILY_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.JOB_FAMILY_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "JOB_ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.JOB_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "JOB_LEVEL",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.JOB_LEVEL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LAST_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.LAST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LEGAL_ENTITY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.LEGAL_ENTITY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LEGAL_ENTITY_ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.LEGAL_ENTITY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "MONTHS_SERVICE",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.MONTHS_SERVICE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PERFORMANCE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.PERFORMANCE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PERIOD_END_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.PERIOD_END_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PERIOD_START_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.PERIOD_START_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PERSON_NUMBER",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.PERSON_NUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "POTENTIAL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.POTENTIAL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "QUARTER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.QUARTER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "QUARTER_NUM",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.QUARTER_NUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "RELIGION",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.RELIGION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALARY",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.SALARY" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "SUM",
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "TERM_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.TERM_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TERM_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.TERM_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TOP_PERFORMER_HIRED_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.TOP_PERFORMER_HIRED_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TOP_PERFORMER_PERIOD_END_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.TOP_PERFORMER_PERIOD_END_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TOP_PERFORMER_PERIOD_START_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.TOP_PERFORMER_PERIOD_START_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TOP_PERFORMER_TERMINATION_HEADCOUNT",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.TOP_PERFORMER_TERMINATION_HEADCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "YEAR_SERVICE",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_TEST_NEW",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW.YEAR_SERVICE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "DEMO_HCM_TEST_NEW",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_TEST_NEW" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Core.DEMO_HCM_DEPARTMENT",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ZERO_OR_ONE"
+    } ]
+  }
+}

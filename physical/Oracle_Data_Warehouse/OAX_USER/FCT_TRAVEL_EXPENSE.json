@@ -1,0 +1,66 @@
+{
+  "physicalTable" : {
+    "name" : "FCT_TRAVEL_EXPENSE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "COST_CENTER_VALUESET_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_SEGMENT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "CHECK_NUMBER",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "COST_CENTER_CATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "FISCAL_DATE",
+      "dataType" : "DATETIME",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "INVOICE_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    }, {
+      "name" : "PARTY_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "SUPPLIER_NUMBER",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TRAVEL_DISCOUNT",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TRAVEL_EXP",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TRAVEL_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

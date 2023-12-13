@@ -1,0 +1,16 @@
+{
+  "physicalTable" : {
+    "name" : "FARZIN_APP_ASSOC",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "YEAR",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

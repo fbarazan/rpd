@@ -1,0 +1,21 @@
+{
+  "physicalTable" : {
+    "name" : "FARZIN_NUM",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CITY",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "COLUMN1",
+      "dataType" : "DOUBLE",
+      "length" : 126,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

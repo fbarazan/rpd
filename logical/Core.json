@@ -1,0 +1,7 @@
+{
+  "businessModel" : {
+    "name" : "Core",
+    "tags" : [ "Project:Fusion Analytics Warehouse - Absence Management - Skeleton", "Project:Fusion Analytics Warehouse - Goals and Career Development - Skeleton", "Project:Fusion Analytics Warehouse - Journeys - Skeleton", "Project:Fusion Analytics Warehouse - Learning Management - Skeleton", "Project:Fusion Analytics Warehouse - Payroll Management - Skeleton", "Project:Fusion Analytics Warehouse - Performance Management and Check-ins - Skeleton", "Project:Fusion Analytics Warehouse - Salary Basis - Skeleton", "Project:Fusion Analytics Warehouse - Succession Management - Skeleton", "Project:Fusion Analytics Warehouse - Talent Acquisition - Skeleton", "Project:Fusion Analytics Warehouse - Talent Profile Management - Skeleton", "Project:Fusion Analytics Warehouse - Talent Review - Skeleton", "Project:Fusion Analytics Warehouse - Time and Labor - Skeleton", "Project:Fusion Analytics Warehouse - Workforce Compensation - Skeleton", "Project:Fusion Analytics Warehouse - Workforce Management - Skeleton", "Project:Oracle Analytics for Fusion Common - Skeleton" ],
+    "disable" : false
+  }
+}

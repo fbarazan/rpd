@@ -1,0 +1,60 @@
+{
+  "logicalTable" : {
+    "name" : "DEMO_HCM_DEPARTMENT",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "DEPARTMENT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_DEPARTMENT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_DEPARTMENT.DEPARTMENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DEPARTMENT_GROUP",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_DEPARTMENT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_DEPARTMENT.DEPARTMENT_GROUP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "DEMO_HCM_DEPARTMENT",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_DEPARTMENT.ID" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "DEMO_HCM_DEPARTMENT",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX_USER.DEMO_HCM_DEPARTMENT" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "ID" ]
+  }
+}

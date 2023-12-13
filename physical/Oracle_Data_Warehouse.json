@@ -1,0 +1,69 @@
+{
+  "database" : {
+    "name" : "Oracle_Data_Warehouse",
+    "databaseType" : "ORACLE_DATABASE",
+    "connectionPools" : [ {
+      "name" : "Oracle_Data_Warehouse_Connection_Pool",
+      "description" : "User name is VALUEOF(OLAP_USER)\r\nData source name is VALUEOF(OLAP_DSN)\r\nDSN\r\n\r\n",
+      "connection" : "'system'.'dev_system'",
+      "remoteConnection" : false,
+      "maxConnections" : 100,
+      "requiresFullyQualifedTableNames" : true,
+      "connectionTimeout" : 5,
+      "connectionTimeoutUnit" : "MINUTES",
+      "multithreaded" : true,
+      "supportParams" : true,
+      "isolationLevel" : "readUncommitted",
+      "writeBackConfig" : {
+        "dbSupportsUnicode" : false,
+        "bulkInsertBufferSize" : 10240,
+        "transactionBoundary" : 10,
+        "tempTablePrefix" : "TT"
+      }
+    } ],
+    "featureOverrides" : [ {
+      "name" : "LENGTH_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "RAND_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "REPEAT_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "PERF_PREFER_NO_COMMON_QUERY_FACTORING",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_AREA_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_AS_TEXT_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_DISTANCE_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_LENGTH_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_WITHIN_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "GEOMETRY_WITHIN_DISTANCE_SUPPORTED",
+      "value" : false
+    }, {
+      "name" : "FRACTIONAL_SECOND_PRECISION",
+      "value" : 0
+    }, {
+      "name" : "MAX_BULK_FETCH_BUFFER_SIZE",
+      "value" : 327680
+    }, {
+      "name" : "DEFAULT_BULK_FETCH_ROW_COUNT",
+      "value" : 100
+    } ],
+    "virtualPrivateDatabase" : true,
+    "crmMetadataTables" : false,
+    "allowDirectDatabaseRequests" : false,
+    "allowPopulateQueries" : false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "physicalTable" : {
+    "name" : "REGIONS_2",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "NAME",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : true
+    }, {
+      "name" : "REGION_2",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

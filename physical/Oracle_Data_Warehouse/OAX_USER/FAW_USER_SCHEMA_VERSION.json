@@ -1,0 +1,62 @@
+{
+  "physicalTable" : {
+    "name" : "FAW_USER_SCHEMA_VERSION",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "execution_time",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : false
+    }, {
+      "name" : "checksum",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "description",
+      "dataType" : "VARCHAR",
+      "length" : 200,
+      "nullable" : false
+    }, {
+      "name" : "installed_by",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "installed_on",
+      "dataType" : "TIMESTAMP",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "installed_rank",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : false
+    }, {
+      "name" : "script",
+      "dataType" : "VARCHAR",
+      "length" : 1000,
+      "nullable" : false
+    }, {
+      "name" : "success",
+      "dataType" : "INT",
+      "length" : 1,
+      "nullable" : false
+    }, {
+      "name" : "type",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "version",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    } ],
+    "additionalKeys" : [ [ "installed_rank" ] ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "physicalTable" : {
+    "name" : "HCM_USE_CASES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "ATTRVALUE",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "USERNAME",
+      "dataType" : "VARCHAR",
+      "length" : 150,
+      "nullable" : true
+    }, {
+      "name" : "CONTEXT",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "CONTEXTNAME",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "PERID_VALUE",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

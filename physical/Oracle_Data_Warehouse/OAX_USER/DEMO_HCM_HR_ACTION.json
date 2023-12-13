@@ -1,0 +1,66 @@
+{
+  "physicalTable" : {
+    "name" : "DEMO_HCM_HR_ACTION",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PERSON_NUMBER",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "ACTION_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "DAY",
+      "dataType" : "DATETIME",
+      "length" : 100,
+      "nullable" : true
+    }, {
+      "name" : "DEPARTMENT_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "HR_EVENT_DATE",
+      "dataType" : "DATETIME",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "JOB_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "LEGAL_ENTITY_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "MONTH",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "QUARTER",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "YEAR",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

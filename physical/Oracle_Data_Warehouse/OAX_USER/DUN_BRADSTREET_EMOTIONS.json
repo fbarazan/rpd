@@ -1,0 +1,36 @@
+{
+  "physicalTable" : {
+    "name" : "DUN_BRADSTREET_EMOTIONS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DUN_BRADSTREET_RATING_1",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : true
+    }, {
+      "name" : "EMOTION",
+      "dataType" : "VARCHAR",
+      "length" : 2000,
+      "nullable" : true
+    }, {
+      "name" : "RATING_1",
+      "dataType" : "DOUBLE",
+      "length" : 126,
+      "nullable" : true
+    }, {
+      "name" : "REVIEWTEXT_1",
+      "dataType" : "LONGVARCHAR",
+      "length" : 32768,
+      "nullable" : true
+    }, {
+      "name" : "SUPPLIER_NAME_1",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

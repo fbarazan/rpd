@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "DUN_BRADSTREET_RATING",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "DUN_BRADSTREET_RATING",
+      "dataType" : "VARCHAR",
+      "length" : 26,
+      "nullable" : true
+    }, {
+      "name" : "RATING",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "SUPPLIER_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

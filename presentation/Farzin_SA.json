@@ -1,0 +1,15 @@
+{
+  "subjectArea" : {
+    "name" : "Farzin_SA",
+    "sourceBusinessModel" : "businessModel:Core",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Farzin_SA.DEMO_HCM_DEPARTMENT"
+    }, {
+      "name" : "presentationTable:Farzin_SA.DEMO_HCM_TEST_NEW"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:farzin_Application_role_1",
+      "access" : "READ"
+    } ]
+  }
+}
